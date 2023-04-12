@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                     0 -> tab.text = "Chats"
                     1 -> tab.text = "Status"
                     2 -> tab.text = "Calls"
-                    3 -> tab.text = "Photo"
+                    3 -> tab.text = "Music"
                 }
             }
         ).attach()

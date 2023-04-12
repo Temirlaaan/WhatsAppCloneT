@@ -5,6 +5,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.whatsappclonet.calls.CallsFragment
+import com.example.whatsappclonet.music.MusicListFragment
 
 class PagerAdapter(
     lifecycle: Lifecycle,
@@ -24,7 +25,7 @@ class PagerAdapter(
             0 -> ChatsFragment()
             1 -> StatusFragment()
             2 -> CallsFragment()
-            else -> PhotoFragment()
+            else -> MusicListFragment()
         }
     }
 }

@@ -41,7 +41,7 @@ class ChatDetailActivity: AppCompatActivity() {
 
         dynamicButton.setOnClickListener{
             val intent = Intent()
-            intent.action = DYNAMIC_BROADCASTcle
+            intent.action = DYNAMIC_BROADCAST
             intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES)
             sendBroadcast(intent)
         }
